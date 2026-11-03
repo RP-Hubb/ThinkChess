@@ -10,7 +10,6 @@ import {
   OpponentIntent,
   MoveExplanation,
   BlunderWarning,
-  START_FEN,
   getGameStatus,
   classifyMove,
   extractBoardFacts
@@ -103,10 +102,9 @@ export const useGameStore = create<GameState>((set, get) => {
       if (isHumanTurn && blunderPrevention) {
         // Test move on temporary chess instance
         const testChess = new Chess(chess.fen());
-        const executed = testChess.move({ from, to, promotion: promotion || 'q' });
+        testChess.move({ from, to, promotion: promotion || 'q' });
         
         // Check if moving to an attacked, undefended square with higher value
-        const facts = extractBoardFacts(testChess);
         const opponentColor = turn === 'w' ? 'b' : 'w';
         const isTargetAttacked = testChess.isAttacked(to as Square, opponentColor);
         const isTargetDefended = testChess.isAttacked(to as Square, turn);

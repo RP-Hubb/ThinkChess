@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AlertTriangle, ShieldAlert, ArrowLeft, Play } from 'lucide-react';
+import { ShieldAlert, ArrowLeft, Play } from 'lucide-react';
 import { useGameStore } from '../../store/gameStore.js';
 
 export const BlunderWarningModal: React.FC = () => {

@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
 import { 
-  Sparkles, 
   BarChart3, 
-  Award, 
-  ShieldCheck, 
-  RotateCcw,
-  Compass,
-  Cpu
+  Award
 } from 'lucide-react';
 import { ChessboardView } from './features/board/ChessboardView.js';
 import { CoachPanel } from './features/coach/CoachPanel.js';
@@ -19,7 +14,7 @@ import { ThinkingProfileModal } from './features/profile/ThinkingProfileModal.js
 import { useGameStore } from './store/gameStore.js';
 
 export const App: React.FC = () => {
-  const { status, turn, mode, history } = useGameStore();
+  const { status, turn, history } = useGameStore();
   const [showAnalysis, setShowAnalysis] = useState(false);
   const [showProfile, setShowProfile] = useState(false);
 

@@ -10,7 +10,7 @@ interface Props {
 }
 
 export const PostGameModal: React.FC<Props> = ({ onClose }) => {
-  const { history, status, winner, resetGame } = useGameStore();
+  const { history, status, resetGame } = useGameStore();
   const [showThoughtReplay, setShowThoughtReplay] = useState(false);
   const [showProfile, setShowProfile] = useState(false);
 

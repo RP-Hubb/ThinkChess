@@ -15,9 +15,6 @@ export interface BotDecision {
 }
 
 export class EngineService {
-  private worker: Worker | null = null;
-  private isReady: boolean = false;
-
   constructor() {
     this.initWorker();
   }
@@ -25,7 +22,6 @@ export class EngineService {
   private initWorker() {
     try {
       // Future hook for direct stockfish.js / stockfish.wasm worker script
-      // e.g. this.worker = new Worker(new URL('./stockfish.worker.ts', import.meta.url));
     } catch {
       console.warn('[EngineService] Local worker initialization deferred; using calibrated engine fallback.');
     }

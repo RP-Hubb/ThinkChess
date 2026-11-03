@@ -53,7 +53,8 @@ gameRouter.post('/', (req: Request, res: Response) => {
 });
 
 gameRouter.get('/:id', (req: Request, res: Response) => {
-  const game = inMemoryGames.get(req.params.id);
+  const gameId = String(req.params.id);
+  const game = inMemoryGames.get(gameId);
   if (!game) {
     return res.status(404).json({ error: 'Game not found' });
   }
@@ -62,7 +63,8 @@ gameRouter.get('/:id', (req: Request, res: Response) => {
 
 gameRouter.post('/:id/moves', (req: Request, res: Response) => {
   try {
-    const game = inMemoryGames.get(req.params.id);
+    const gameId = String(req.params.id);
+    const game = inMemoryGames.get(gameId);
     if (!game) {
       return res.status(404).json({ error: 'Game not found' });
     }
@@ -92,7 +94,8 @@ gameRouter.post('/:id/moves', (req: Request, res: Response) => {
 });
 
 gameRouter.post('/:id/complete', (req: Request, res: Response) => {
-  const game = inMemoryGames.get(req.params.id);
+  const gameId = String(req.params.id);
+  const game = inMemoryGames.get(gameId);
   if (!game) {
     return res.status(404).json({ error: 'Game not found' });
   }

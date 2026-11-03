@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import { 
   Compass, 
   Eye, 
-  HelpCircle, 
   CheckCircle2, 
   AlertCircle, 
-  Lightbulb, 
-  ChevronRight,
   Sparkles,
   Bot
 } from 'lucide-react';
@@ -18,7 +15,6 @@ export const CoachPanel: React.FC = () => {
     currentIntent, 
     currentExplanation, 
     history, 
-    turn, 
     mode, 
     whiteHintsEnabled, 
     blackHintsEnabled,
@@ -29,7 +25,6 @@ export const CoachPanel: React.FC = () => {
   const [showMasterNotice, setShowMasterNotice] = useState(false);
 
   const lastMove = history[history.length - 1];
-  const hintsAllowed = turn === 'w' ? whiteHintsEnabled : blackHintsEnabled;
 
   return (
     <div className="flex flex-col h-full bg-surface-subtle border border-border-subtle rounded-xl overflow-hidden shadow-xl">

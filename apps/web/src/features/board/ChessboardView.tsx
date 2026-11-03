@@ -11,8 +11,6 @@ export const ChessboardView: React.FC = () => {
     isFlipped, 
     makeMove, 
     turn, 
-    playerColor, 
-    mode, 
     history 
   } = useGameStore();
 

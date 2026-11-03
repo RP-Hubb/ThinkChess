@@ -6,10 +6,7 @@ import {
   Volume2, 
   VolumeX, 
   ShieldCheck, 
-  ShieldOff,
-  UserCheck,
-  Bot,
-  Settings
+  ShieldOff
 } from 'lucide-react';
 import { useGameStore } from '../../store/gameStore.js';
 import { 
