@@ -112,3 +112,4 @@ export const DIFFICULTY_CONFIGS: Record<BotDifficulty, {
     ratingEstimate: 1800,
   },
 };
+

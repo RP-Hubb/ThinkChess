@@ -154,3 +154,4 @@ export interface GameSettings {
   blackHintsEnabled: boolean;
   autoQueen: boolean;
 }
+

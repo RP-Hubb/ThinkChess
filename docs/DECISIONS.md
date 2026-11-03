@@ -79,3 +79,4 @@
   - External providers (OpenAI, Gemini, Anthropic)
   - Built-in `MockCoachProvider` that generates rich, context-aware chess coaching based directly on the deterministic `Chess Fact Extractor`.
 - **Consequences**: The application runs completely and accurately out of the box with zero external credential dependencies, while upgrading to live LLMs seamlessly via `.env`.
+

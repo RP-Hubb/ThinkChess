@@ -62,3 +62,4 @@ describe('Chess Rules & Helpers', () => {
     expect(facts.legalMoveCount).toBe(20);
   });
 });
+

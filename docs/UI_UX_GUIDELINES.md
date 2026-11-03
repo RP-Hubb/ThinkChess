@@ -93,3 +93,4 @@ ThinkChess is built to evoke the serene, focused intensity of a grandmaster's st
 - High-contrast square palette (Dark: `#53677A`, Light: `#B8C5D6`).
 - Full keyboard navigation for move history replay (Left arrow = previous ply, Right arrow = next ply).
 - Screen-reader friendly aria-labels for every square (e.g. `aria-label="e4 white pawn"`).
+

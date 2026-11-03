@@ -93,3 +93,4 @@ export function calculateMaterial(chess: Chess): { white: number; black: number;
     diff: white - black,
   };
 }
+

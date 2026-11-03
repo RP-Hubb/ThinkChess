@@ -321,3 +321,4 @@ model OpeningMemoryItem {
   @@index([userId, dueAt])
 }
 ```
+

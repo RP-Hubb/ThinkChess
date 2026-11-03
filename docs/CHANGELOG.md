@@ -21,3 +21,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `DECISIONS.md`: Architectural decisions, technical constraints, and risk mitigations.
   - `TESTING.md`: Automated and manual testing strategy.
   - `CURRENT_STATUS.md`: Real-time implementation status tracker.
+

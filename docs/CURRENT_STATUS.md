@@ -55,3 +55,4 @@
 3. **Scaffold Frontend (`apps/web`)**: Initialize Vite React TypeScript project, configure Tailwind CSS, set up Lucide React, and build the interactive Chessboard component.
 4. **Scaffold Backend (`apps/api`)**: Set up Express, TypeScript, Prisma, and basic health check endpoints.
 5. **Run and Verify**: Launch web dev server and test board interaction, legal move indicators, and game controls.
+

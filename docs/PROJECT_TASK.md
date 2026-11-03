@@ -108,3 +108,4 @@ Every UX decision, coaching prompt, and engine integration in ThinkChess is guid
 - Setting up the monorepo workspace (`apps/web`, `apps/api`, `packages/chess-core`).
 - Establishing the complete documentation suite in `docs/`.
 - Building and running Milestone 0 and launching Milestone 1 with an interactive, verified chessboard.
+

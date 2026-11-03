@@ -155,3 +155,4 @@ While existing chess platforms offer raw engine evaluations, tactic puzzle rush,
 - **Reliability**: Safe fallback if LLM service is delayed or offline (engine evaluation remains accessible).
 - **Security**: Environment variable encapsulation for all LLM API keys. JWT authentication for user session management.
 - **Design Standard**: Deep charcoal dark mode, high contrast, clean typography, zero UI clutter.
+

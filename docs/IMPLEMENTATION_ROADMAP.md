@@ -106,3 +106,4 @@ This roadmap governs the milestone-based development of ThinkChess from initial 
 ## Milestone 7: Hardening, Polish & Production Verification
 - **Objective**: Comprehensive test coverage, accessibility audit, performance tuning, and end-to-end verification.
 - **Status**: Pending
+

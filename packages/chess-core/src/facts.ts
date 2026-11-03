@@ -85,3 +85,4 @@ export function extractBoardFacts(chess: Chess): ChessBoardFacts {
     legalMoveCount: chess.moves().length,
   };
 }
+

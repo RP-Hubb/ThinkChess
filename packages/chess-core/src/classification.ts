@@ -75,3 +75,4 @@ export function calculateAccuracy(cpLosses: number[]): number {
   const total = scores.reduce((sum, s) => sum + s, 0);
   return Number((total / scores.length).toFixed(1));
 }
+

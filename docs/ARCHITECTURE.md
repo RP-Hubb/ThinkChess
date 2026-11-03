@@ -146,3 +146,4 @@ Shared between web and API to prevent code duplication:
 - Board fact extraction utilities.
 - Bot personality configurations and candidate selection heuristics.
 - Shared TypeScript types for API contracts and chess structures.
+

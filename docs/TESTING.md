@@ -46,3 +46,4 @@ ThinkChess cannot tolerate chess rule errors, incorrect engine evaluations, or b
 2. **Blunder Prevention Trigger**: User in blunder mode makes an intentional hanging move -> Blunder modal interrupts move -> User clicks "Reconsider" -> Board restores position.
 3. **Self-Play Hints**: User sets White Hints ON and Black Hints OFF -> Coach suggestions appear only on White's turn.
 4. **Thought Replay**: Completed game triggers review -> Critical moment 1 presented -> User submits thought -> AI feedback displayed and tags updated.
+
